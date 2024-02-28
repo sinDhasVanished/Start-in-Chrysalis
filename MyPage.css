@@ -1,0 +1,120 @@
+div article h1#Japanese,#English { 
+    color:white;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 0.125em;
+}
+
+body {
+    background-image: url('/Users/cindylee/Desktop/Background.jpg');
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: 100% 100%;
+  }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  /* list-style-type: none; - Removes the bullets. A navigation bar does not need list markers
+Set margin: 0; and padding: 0; to remove browser default settings */
+header{
+    display: inline-block;
+    background: hsla(0, 0%, 100%, 0.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex; 
+    /* make them go to the top of the nav-bar by giving our <header> element a display property of flex: */
+    align-items: center;
+    /* vertically align our items in the nav-bar */
+    box-shadow: 0 0 25px 0 black;
+    /* in the middle: blur is how blurred the shadow is */
+    /* second last-spread is how far out of the element the shadow spreads. */
+}
+header * {
+    display: inline;
+}
+/* make the items go horizontally instead of vertically */
+/* The * is a wildcard and can mean any element */
+/* a little confused */
+
+header li {
+    margin: 20px;
+    /* space the items */
+}
+
+header li a {
+    color: black;
+    text-decoration:underline;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* style the items */
+}
+
+
+.summary{
+    margin-left:20px;
+    background: hsla(0, 0%, 100%, 0.8);
+    color:rgba(43, 45, 21, 0.473);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom:30px;
+    line-height: 1.25;
+    padding: 30px 30px;
+}
+.introduction{
+    margin-left:20px;
+    background: hsla(0, 0%, 100%, 0.8);
+    color:rgba(43, 45, 21, 0.473);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom:30px;
+    line-height: 1.25;
+    /* padding: 30px 30px; */
+    text-align: center;
+}
+
+#xian1,#chengdu1,#guangzhou1,#beijing1,#Tokyo1{
+    font-size:medium;
+    color:rgb(255, 255, 255);
+    line-height: 1.25;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.xian p,.chengdu p,.guangzhou p,.beijing p,.Tokyo p{
+    background: hsl(0, 0%, 100%,0.8);
+    padding: 5px 10px;
+    line-height: 1.25;
+    margin-right:20px;
+    color:rgba(43, 45, 21, 0.473);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.part1,.part2{
+    margin: 0 auto;
+	width: 80%;
+	max-width: 100ch;
+}
+
+.trajectory{
+    background: hsl(0, 0%, 100%, 0.8);
+    color:rgba(43, 45, 21, 0.473);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    
+
+}
+@media screen and (max-width: 767px) {
+    body{
+        column-width: 300px;
+    }
+  }
+  /* (max-width: 767px) is a condition that checks if the screen width is at most 767 pixels. */
+/* This CSS rule sets the column width of the body content to 300 pixels. It means that 
+if the screen's width is at most 767 pixels, the content within the <body> element will be displayed in columns with a width of 300 pixels each. 
+This can be useful for creating a responsive layout where content is organized into columns on smaller screens.
+
+ */
+
