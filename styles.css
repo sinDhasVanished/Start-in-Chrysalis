@@ -1,0 +1,32 @@
+body {
+  font-family: "Avenir", "Montserrat", "Trebuchet MS", "Arial", sans-serif;
+}
+
+.code-inline-boxed {
+  font-family: "Consolas", monospace;
+  display: inline-block;
+  background-color: #eef;
+  border: 1px solid #bbd;
+  padding: 4px;
+  border-radius: 5px;
+}
+
+.code-inline {
+  font-family: "Consolas", monospace;
+  font-weight: bold;
+}
+
+.warning {
+  background-color: #ffe4ee;
+  border: 1px solid #f00;
+  border-radius: 8px;
+  margin: 40px;
+  padding: 20px;
+  font-size: 14pt;
+}
+
+.big-emphasis {
+  text-align: center;
+  font-weight: bold;
+  font-size: 28pt;
+}
