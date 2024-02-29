@@ -1,0 +1,161 @@
+html {
+    /* background: rgb(148,170,148);
+    background: radial-gradient(circle, rgba(148,170,148,1) 0%, rgba(253,187,45,1) 100%); */
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-repeat:no-repeat;
+    background-size:cover;
+    /* height:100%; */
+    background-image: linear-gradient(to top, #decfde 0%, #5ccee0 100%);
+    /* https://cssgradient.io/ */
+    /* background-size: 100% 100%; (it also works*/ 
+    min-height: 100%;
+    /* display: inline-block; */
+}
+
+body h1{
+    text-align: center;
+}
+
+body #topic1{
+    font-size:large;
+    font-weight:bold;
+    text-align: center;
+
+}
+body #temperature, #Following, #rain{
+    text-align: center;
+    font-size:large;
+    letter-spacing: 1px;
+    margin-top:1em;
+    padding: 20px;
+}
+
+#wait {
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+#Following {
+    text-align: center;
+    color:slategray;
+    border:transparent pink 2px; 
+    margin: auto;
+    background:hsla(199, 100%, 69%, 0.3);
+    width: 60%;
+    padding: 20px;
+    line-height:60px;
+}
+    /* to center the div */
+
+    /* news here in the following. */
+
+#news,#news1{
+    width: 65%;
+    margin: auto;
+    text-align: center;
+}
+
+#news1{
+    color:slategray;
+    font-size:medium;
+    background:hsla(300, 20%, 73%, 0.3);
+    padding: 10px;
+    line-height:20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#news1title{
+    font-style:oblique;
+    font-weight:bold;
+    font-size:large;
+    line-height:30px;
+    letter-spacing: 2px;
+
+}
+
+#news1summary{
+    font-size:large;
+    line-height:40px;
+    letter-spacing: 2px;
+
+}
+
+#ul1{
+    font-size:x-small;
+    line-height:15px;
+    letter-spacing: 2px;
+}
+/* ------------------------------------ */
+
+#tips,#tips1{
+    width: 55%;
+    margin: auto;
+    text-align: center;
+}
+
+#tips1{
+    color:slategray;
+    font-size:medium;
+    letter-spacing: 2px;
+    background:hsla(300, 20%, 73%, 0.3);
+    padding: 10px;
+    line-height:20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#tips{
+
+    text-align: center;
+    /* color:slategray;
+    border:transparent pink 2px;  */
+    margin: auto;
+    /* background:hsla(199, 100%, 69%, 0.3); */
+    width: 55%;
+    padding: 20px;
+    line-height:60px;
+}
+
+body #tipTitle{
+    font-size:large;
+    letter-spacing: 2px;
+    font-weight:bold;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#tipA, #tipB, #tipC{
+    line-height:20px;
+    letter-spacing: 2px;
+    font-size:large;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+
+
+
+    /*  */
+    /* text-align: center;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    /* display: inline;  */
+    /* the default for span */
+   
+    /* height: 100px;
+    padding: 5px;
+    border: 1px solid blue;   */ 
+
+/* #news1summary{
+    text-align: center;
+    border:transparent hsla(337, 82%, 83%, 0.3);
+    margin: auto;
+    background:hsla(337, 82%, 83%, 0.3);
+    width: 55%;
+    padding: 20px;
+    
+
+}
+#news{
+    text-align: center;
+
+} */
